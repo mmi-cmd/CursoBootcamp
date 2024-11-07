@@ -1,0 +1,43 @@
+table{
+    background-color: #012e40;
+    width: 600px;
+    margin: 0 auto;
+    color: #fafafa;
+    border: none;
+    font-family: sans-serif;
+    padding: 0 0 18px 0;
+    border-radius: 4px;
+}
+
+thead {
+    position: sticky; /* permance fijo el thead al hacer scroll */
+    top: 0;
+    background-color: #012e40;
+}
+thead th{
+    padding-bottom: 20px;
+    padding-top: 18px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tbody tr{
+    transition:background-color .2s ease-in-out ;
+}
+
+tbody tr:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+tbody td{
+    padding: 12px 24px;
+}
+
+tfoot{
+    text-align: center;
+}
+tfoot td{
+    padding-top: 20px;
+}
